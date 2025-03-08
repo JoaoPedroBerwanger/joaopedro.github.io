@@ -26,6 +26,14 @@ p {
     line-height: 1.6;
 }
 
+button {
+    font-family: "Merienda", serif;
+}
+
+ul {
+    padding-left: 600px;
+    color: #f5f5f5;
+}
 .cabecalhoIndex {
     display: flex;
     align-items: center;
@@ -216,50 +224,3 @@ p {
 }
 
 /* ESTÁ SENDO USADO */
-
-
-
-
-
-/*
-
-
-
-
-
-
-.cabecalho {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #1a1a1a;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-
-
-
-
-
-
-
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: center;
-}
-
-
-
-
-
-
-.galeria {
-    text-align: center;
-    padding: 40px 20px;
-}
-
-*/

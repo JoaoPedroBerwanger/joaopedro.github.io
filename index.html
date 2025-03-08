@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <script src="functions.js">atualizaLista()</script>
 </head>
 
 <body>
@@ -58,6 +59,13 @@
         <a class="botao" href="carreira.html">Carreira</a>
         <a class="botao" href="hobbies.html">Hobbies</a>
         <a class="botao" href="sonhos.html">Sonhos</a>
+    </div>
+
+    <h1 class="subtitulo">Lista a Fazer:</h1>
+    <ul id="listaTarefas"></ul>
+    <div class="botaoDiv">
+    <button class="botao" onclick="adicionarTarefas()">Adicionar Tarefas</button>
+    <button class="botao" onclick="limparTarefas()">Limpar Tarefas</button>
     </div>
 
     <div class="fotos">
